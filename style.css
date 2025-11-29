@@ -50,9 +50,12 @@ p {
     height: 200px;
 }
 
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 3px solid green;
+.categoria-videos img {
+    width: 300px;    
+    height: 180px;     
+    object-fit: cover;
+    opacity: 0.7;
+    border-radius: 10px;
 }
 
 .categoria h2 {
